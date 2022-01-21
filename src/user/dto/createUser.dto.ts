@@ -5,5 +5,6 @@ export class CreateUserDto {
   account: string;
   @ApiProperty({description: '用户姓名'})
   name: string;
-  
+  @ApiProperty({description: '用户手机号'})
+  phone?: string;
 }
